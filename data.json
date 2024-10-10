@@ -1,0 +1,5 @@
+[
+    { "name": "Consulting", "description": "Professional consulting services for businesses.", "image": "images/consulting.jpg" },
+    { "name": "Marketing", "description": "Effective marketing strategies to boost your brand.", "image": "images/marketing.jpg" },
+    { "name": "Development", "description": "Web and software development services.", "image": "images/development.jpg" }
+]
