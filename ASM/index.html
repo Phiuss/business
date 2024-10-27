@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang bán nhà</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bán Nhà Đẹp</h1>
+        <nav>
+            <a href="#featured">Căn Nhà Nổi Bật</a>
+            <a href="#services">Dịch Vụ</a>
+            <a href="#contact">Liên Hệ</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Chào mừng bạn đến với dịch vụ bán nhà chuyên nghiệp</h2>
+            <p>Chúng tôi cung cấp những căn nhà đẹp và đáng mơ ước cho bạn.</p>
+        </section>
+
+        <section id="featured">
+            <h2>Căn Nhà Nổi Bật</h2>
+            <div id="property-list"></div>
+        </section>
+
+        <section id="services">
+            <h2>Dịch Vụ Của Chúng Tôi</h2>
+            <p>Chúng tôi cung cấp các dịch vụ tư vấn và hỗ trợ mua bán nhà với mức giá hợp lý.</p>
+        </section>
+
+        <section id="add-property">
+            <h2>Thêm Bất Động Sản</h2>
+            <form id="add-property-form">
+                <label for="property-address">Địa chỉ:</label>
+                <input type="text" id="property-address" required>
+                <label for="property-price">Giá (VNĐ):</label>
+                <input type="number" id="property-price" required>
+                <label for="property-description">Mô tả:</label>
+                <textarea id="property-description" rows="4" required></textarea>
+                <label for="property-image">URL hình ảnh:</label>
+                <input type="text" id="property-image" required>
+                <button type="submit">Thêm</button>
+            </form>
+        </section>
+
+        <section id="contact">
+            <h2>Liên Hệ</h2>
+            <form id="contact-form">
+                <label for="name">Họ tên:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Tin nhắn:</label>
+                <textarea id="message" rows="4" required></textarea>
+                <button type="submit">Gửi</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Bán Nhà Đẹp. Mọi quyền được bảo lưu.</p>
+    </footer>
+
+    <script src="js/app.js" type="module"></script>
+</body>
+</html>

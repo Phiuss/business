@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #555555; 
+}
+
+header {
+    background-color: #1d3557; 
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: #f1faee;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+#hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #e9c46a;
+}
+
+#featured, #services, #contact, #add-property {
+    margin-top: 40px;
+}
+
+#property-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.property {
+    border: 1px solid #00ddff;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1d3557; 
+    color: #ffffff; 
+}
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto;
+    padding: 20px;
+}
